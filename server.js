@@ -25,7 +25,7 @@ var routers            = require('./server/routers');
 // Properties
 //================================================================================
 var app  = express();
-var port = process.env.PORT || 7000;
+var port = process.env.PORT || 2002;
 
 //================================================================================
 // Configuration

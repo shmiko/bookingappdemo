@@ -5,7 +5,7 @@ angular.module('GoogleCalendarService', [], function($provide){
 		var $scope = angular.element(document).scope();
 
 		//the url where our node.js application is located
-		var baseUrl = 'http://localhost:7000/google';
+		var baseUrl = 'http://localhost:2002';//google
 
 		return {
 			getEvents: function(){

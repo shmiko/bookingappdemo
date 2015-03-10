@@ -17,9 +17,9 @@ var _accessToken;
 // Passport Strategies
 //================================================================================
 var googleStrategy = new GoogleStrategy({
-        clientID: config.google.clientId,
-        clientSecret: config.google.clientSecret,
-        callbackURL: config.google.callbackURL,
+        clientID: "407717796667-h1bmfq2uajkhtor6vi07r9el95p3r5ej.apps.googleusercontent.com",
+        clientSecret: "nE1rUbxLcLyMaJ0Of_NsK3nT",
+        callbackURL: "http://localhost:2002/auth/callback",
         scope: 'https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email'
     },
     function(accessToken, refreshToken, profile, done) {

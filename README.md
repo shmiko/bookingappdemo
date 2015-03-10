@@ -3,7 +3,7 @@ Download the project files and then rename config.sample.js => config.js and fil
 
 The callback I used was:
 ```
-http://localhost:7000/auth/google/callback
+http://localhost:2002/auth ///google/callback
 ```
 
 Then, run the following commands from the project root folder in terminal:
